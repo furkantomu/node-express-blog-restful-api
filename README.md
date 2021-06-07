@@ -27,7 +27,7 @@
 
 
 
-
+MONGODB POST SCHEMA:
 ```javascript
 
 import mongoose from "mongoose";
