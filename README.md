@@ -3,10 +3,10 @@
 ### API END-POINT
 
 ###### POSTS
- *POST LIST (GET): https://blog-app-node-restfulapi.herokuapp.com/api/posts
- CREATE POST (POST): https://blog-app-node-restfulapi.herokuapp.com/api/posts
- UPDATE POST (PUT): https://blog-app-node-restfulapi.herokuapp.com/api/posts/{_id}
- DELETE POST (DELETE): https://blog-app-node-restfulapi.herokuapp.com/api/posts/{_id}*
+-POST LIST (GET): https://blog-app-node-restfulapi.herokuapp.com/api/posts
+-CREATE POST (POST): https://blog-app-node-restfulapi.herokuapp.com/api/posts
+-UPDATE POST (PUT): https://blog-app-node-restfulapi.herokuapp.com/api/posts/{_id}
+-DELETE POST (DELETE): https://blog-app-node-restfulapi.herokuapp.com/api/posts/{_id}
 #
 #
 ##### AUTH
