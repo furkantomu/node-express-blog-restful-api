@@ -24,9 +24,6 @@
 ### ADD CATEGORY (POST): https://blog-app-node-restfulapi.herokuapp.com/api/category
 ### GET CATEGORY (GET): https://blog-app-node-restfulapi.herokuapp.com/api/category
 #
-
-
-
 MONGODB POST SCHEMA:
 ```javascript
 
@@ -48,5 +45,45 @@ const postSchema = new mongoose.Schema(
 const Post = mongoose.model("Posts", postSchema);
 
 export default Post;
+```
+#
+MONGODB USER SCHEMA:
+```javascript
+
+import mongoose from "mongoose";
+
+const userSchema = new mongoose.Schema({
+  username: { type: String, required: true, unique: true },
+  name: { type: String, required: true },
+  surname: { type: String, required: true },
+  email: { type: String, required: true, unique: true },
+  password: { type: String, required: true },
+  profilePic: { type: String, default: "" },
+},{
+  timestamps:true
+});
+
+const User = mongoose.model('Users',userSchema);
+
+export default User;
+```
+#
+MONGODB CATEGORY SCHEMA:
+```javascript
+
+import mongoose from "mongoose";
+
+const categorySchema = new mongoose.Schema(
+  {
+    name: { type: String, required: true },
+  },
+  {
+    timestamps: true,
+  }
+);
+
+const Category = mongoose.model("Category", categorySchema);
+
+export default Category;
 ```
 
