@@ -2,11 +2,11 @@
 
 ### API END-POINT
 
-##### POSTS
-### POST LIST (GET): https://blog-app-node-restfulapi.herokuapp.com/api/posts
-### CREATE POST (POST): https://blog-app-node-restfulapi.herokuapp.com/api/posts
-### UPDATE POST (PUT): https://blog-app-node-restfulapi.herokuapp.com/api/posts/{_id}
-### DELETE POST (DELETE): https://blog-app-node-restfulapi.herokuapp.com/api/posts/{_id}
+###### POSTS
+ **POST LIST (GET):** *https://blog-app-node-restfulapi.herokuapp.com/api/posts*
+ **CREATE POST (POST):** *https://blog-app-node-restfulapi.herokuapp.com/api/posts*
+ **UPDATE POST (PUT):** *https://blog-app-node-restfulapi.herokuapp.com/api/posts/{_id}*
+ **DELETE POST (DELETE):** *https://blog-app-node-restfulapi.herokuapp.com/api/posts/{_id}*
 #
 #
 ##### AUTH
@@ -23,6 +23,9 @@
 ##### CATEGORY
 ### ADD CATEGORY (POST): https://blog-app-node-restfulapi.herokuapp.com/api/category
 ### GET CATEGORY (GET): https://blog-app-node-restfulapi.herokuapp.com/api/category
+#
+
+### API SCHEMA
 #
 MONGODB POST SCHEMA:
 ```javascript
